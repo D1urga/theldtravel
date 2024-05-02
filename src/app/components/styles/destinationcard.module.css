@@ -1,0 +1,59 @@
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* width: 300px; */
+    /* border: 1px solid rgb(233, 233, 233); */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: rgb(167, 167, 167) 0px 0px 2px 0px;
+  }
+  .img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .name {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0.4vw;
+  }
+  .name p:nth-child(1) {
+    font-size: 13.5px;
+    font-weight: 600;
+  }
+  .name p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(210, 154, 11);
+  }
+  .name span {
+    font-size: 13px;
+  }
+  .price {
+    font-size: 13.5px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-left: 0.4vw;
+  }
+  .btn {
+    width: 100%;
+    padding: 0 0.4vw;
+    border: none;
+    background-color: rgb(228, 238, 238);
+    padding: 6px 0px;
+    border-radius: 5px;
+    color: rgb(52, 52, 52);
+    font-weight: 550;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+}
+@media screen and (max-width: 520px) {
+}
