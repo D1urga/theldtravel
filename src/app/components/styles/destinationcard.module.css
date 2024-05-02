@@ -9,7 +9,7 @@
     border-radius: 10px;
     padding: 10px;
     background-color: #ffffff;
-    box-shadow: rgb(167, 167, 167) 0px 0px 2px 0px;
+    box-shadow: rgb(167, 167, 167) 0px 0px 3px 0px;
   }
   .img {
     height: 300px;
@@ -42,14 +42,25 @@
     margin-bottom: 8px;
     margin-left: 0.4vw;
   }
+  .des {
+    margin: 10px 0.4vw;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .duration {
+    margin: 10px 0.4vw;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(168, 147, 28);
+  }
   .btn {
     width: 100%;
     padding: 0 0.4vw;
     border: none;
-    background-color: rgb(228, 238, 238);
+    background-color: rgb(104, 147, 147);
     padding: 6px 0px;
     border-radius: 5px;
-    color: rgb(52, 52, 52);
+    color: rgb(255, 255, 255);
     font-weight: 550;
   }
 }
