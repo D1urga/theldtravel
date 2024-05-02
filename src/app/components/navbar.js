@@ -5,7 +5,7 @@ import { FaBars, FaTypo3 } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Navbar() {
-  const [isopen, setisopen] = useState(false);
+  const [isopen, setisopen] = useState(true);
   return (
     <div className={styles.main}>
       <div className={styles.outer_div}>

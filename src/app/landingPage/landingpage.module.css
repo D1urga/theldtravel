@@ -1,7 +1,7 @@
 @media screen and (min-width: 900px) {
   .main {
-    padding: 0 8vw;
-    margin-bottom: 100px;
+    padding: 6rem 8vw;
+    margin-bottom: 0px;
   }
   .p1 {
     font-size: 21px;
@@ -19,6 +19,42 @@
   }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
+  .main {
+    padding: 4rem 2vw;
+    margin-bottom: 0px;
+  }
+  .p1 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .p2 {
+    font-weight: 420;
+    font-size: 14px;
+  }
+  .grids {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 520px) {
+  .main {
+    padding: 3rem 2vw;
+    margin-bottom: 0px;
+  }
+  .p1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .p2 {
+    font-weight: 420;
+    font-size: 13px;
+  }
+  .grids {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }

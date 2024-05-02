@@ -17,21 +17,21 @@ export default function Footer() {
     <div className={Styles.main_div}>
       <div className={Styles.outer_div_1}>
         <div className={Styles.inner_div_1}>
-          <p className={Styles.txt}>SHOP</p>
+          <p className={Styles.txt}>EXPLORE</p>
           <Link href="" className={Styles.one}>
-            Ladies
+            beaches
           </Link>
           <Link href="" className={Styles.one}>
-            Men
+            mountains
           </Link>
           <Link href="" className={Styles.one}>
-            Boby
+            himalaya
           </Link>
           <Link href="" className={Styles.one}>
-            Kids
+            eastern india
           </Link>
           <Link href="" className={Styles.one}>
-            Sports
+            southern india
           </Link>
         </div>
 
@@ -76,8 +76,9 @@ export default function Footer() {
         <div className={Styles.inner_div_4}>
           <p>
             Sign up now and be the first to know
-            <br /> about exclusive offers, latest fashion
-            <br /> news & style tips!
+            <br /> about exclusive offers, new trips
+            <br />
+            and destinations !
           </p>
 
           <div className={Styles.two}>
