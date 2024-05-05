@@ -5,6 +5,10 @@ import styles from "./contactPage.module.css";
 import axios from "axios";
 
 export default function ContactPage() {
+  const tex = ` Have a question, suggestion, or just want to say hello? We're here
+            and eager to hear from you! Simply fill out the form below and one
+            of our dedicated team members will get back to you as soon as
+            possible.`;
   const [isposting, setisposting] = useState(false);
   const [formData, setFormData] = useState({
     fullname: "",
@@ -51,12 +55,7 @@ export default function ContactPage() {
       <div className={styles.outer_div}>
         <div className={styles.div1}>
           <p className={styles.p1}>Contact Us</p>
-          <p className={styles.p2}>
-            Have a question, suggestion, or just want to say hello? We're here
-            and eager to hear from you! Simply fill out the form below and one
-            of our dedicated team members will get back to you as soon as
-            possible.
-          </p>
+          <p className={styles.p2}>{tex}</p>
           <p className={styles.con}>
             mobile : <span>639693????</span>
           </p>
