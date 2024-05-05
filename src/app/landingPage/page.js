@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./landingpage.module.css";
 import Destinationcard from "../components/destinationcard.js";
+import Navbar from "../components/navbar";
 
 export default function LandingPage() {
   const [data, setData] = useState([]);

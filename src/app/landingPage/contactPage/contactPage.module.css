@@ -1,0 +1,286 @@
+@media screen and (min-width: 900px) {
+  .main {
+    padding-top: 5rem;
+  }
+
+  .outer_div {
+    display: flex;
+    padding: 30px 0;
+  }
+  .div1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .con,
+  .con1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 0;
+  }
+  .con {
+    padding-top: 40px;
+  }
+  .con span,
+  .con1 span {
+    color: blue;
+    margin: 0 10px;
+  }
+
+  .p1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .p2 {
+    font-size: 16px;
+    word-spacing: 1.4px;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 600;
+  }
+  .title {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .input,
+  .input:focus {
+    width: 25vw;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 0 10px;
+
+    margin-bottom: 20px;
+  }
+  .input1,
+  .inpu1:focus {
+    resize: none;
+    width: 25vw;
+    height: 100px;
+    border: none;
+    background-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+  }
+  .tit {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 25vw;
+    border: none;
+    background-color: rgb(11, 101, 107);
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 520px) {
+  .main {
+    padding-top: 1rem;
+  }
+
+  .outer_div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .con,
+  .con1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 0;
+  }
+  .con {
+    padding-top: 30px;
+  }
+  .con span,
+  .con1 span {
+    color: blue;
+    font-size: 13px;
+    margin: 0 10px;
+  }
+
+  .p1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .p2 {
+    font-size: 14px;
+    word-spacing: 1.4px;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 600;
+  }
+  .title {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .input,
+  .input:focus {
+    width: 70vw;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 0 10px;
+
+    margin-bottom: 20px;
+  }
+  .input1,
+  .inpu1:focus {
+    resize: none;
+    width: 70vw;
+    height: 100px;
+    border: none;
+    background-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+  }
+  .tit {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 70vw;
+    border: none;
+    background-color: rgb(11, 101, 107);
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 520px) {
+  .main {
+    padding-top: 1rem;
+  }
+
+  .outer_div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+  }
+  .con,
+  .con1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 0;
+  }
+  .con {
+    padding-top: 30px;
+  }
+  .con span,
+  .con1 span {
+    color: blue;
+    font-size: 13px;
+    margin: 0 10px;
+  }
+
+  .p1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .p2 {
+    font-size: 14px;
+    word-spacing: 1.4px;
+    padding: 0 6vw;
+    text-align: center;
+    font-weight: 600;
+  }
+  .title {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .input,
+  .input:focus {
+    width: 90vw;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 0 10px;
+
+    margin-bottom: 20px;
+  }
+  .input1,
+  .inpu1:focus {
+    resize: none;
+    width: 90vw;
+    height: 100px;
+    border: none;
+    background-color: rgb(238, 242, 242);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+  }
+  .tit {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 90vw;
+    border: none;
+    background-color: rgb(11, 101, 107);
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

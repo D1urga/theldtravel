@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./styles/navbar.module.css";
+import styles from "./styles/adminNavbar.module.css";
 import { FaBars, FaTypo3 } from "react-icons/fa";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-export default function Navbar() {
+export default function AdminNavbar() {
   const router = useRouter();
   const [isopen, setisopen] = useState(true);
   return (
@@ -25,16 +25,16 @@ export default function Navbar() {
         <ul className={isopen ? styles.list1 : styles.list}>
           <li>
             <Link
-              href="/"
+              href="/adminLandingPage"
               className={styles.links}
               onClick={() => {
                 setisopen(!isopen);
               }}
             >
-              Discover
+              Queries
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/"
               className={styles.links}
@@ -44,27 +44,27 @@ export default function Navbar() {
             >
               Trips
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
-              href="/"
+              href="/adminLandingPage/contacts"
               className={styles.links}
               onClick={() => {
                 setisopen(!isopen);
               }}
             >
-              Review
+              Contacts
             </Link>
           </li>
           <li>
             <Link
-              href="/landingPage/contactPage"
+              href=""
               className={styles.links}
               onClick={() => {
                 setisopen(!isopen);
               }}
             >
-              Contact
+              More
             </Link>
           </li>
         </ul>
