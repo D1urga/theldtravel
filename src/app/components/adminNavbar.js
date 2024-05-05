@@ -69,7 +69,7 @@ export default function AdminNavbar() {
           </li>
         </ul>
         <div className={styles.btns}>
-          <button className={styles.btn1}>signIn</button>
+          <button className={styles.btn1}>profile</button>
           {/* <button
             className={styles.btn2}
             onClick={() => {

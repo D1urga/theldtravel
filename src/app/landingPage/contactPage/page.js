@@ -33,7 +33,7 @@ export default function ContactPage() {
 
     const response = await axios({
       method: "post",
-      url: `http://localhost:3000/api/v1/contacts/postContact`,
+      url: `https://thetravelbackend.onrender.com/api/v1/contacts/postContact`,
       data: formData1,
       headers: { "Content-Type": "multipart/form-data" },
     })

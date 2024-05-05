@@ -60,6 +60,11 @@
     font-weight: 520;
     padding: 5px 0;
   }
+  .loader {
+    color: blue;
+    font-weight: bold;
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .main {
@@ -123,6 +128,11 @@
     font-weight: 520;
     padding: 5px 0;
   }
+  .loader {
+    color: blue;
+    font-weight: bold;
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 520px) {
   .main {
@@ -185,5 +195,10 @@
     font-size: 14px;
     font-weight: 520;
     padding: 5px 0;
+  }
+  .loader {
+    color: blue;
+    font-weight: bold;
+    margin-top: 50px;
   }
 }

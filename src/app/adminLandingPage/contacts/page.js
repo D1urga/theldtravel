@@ -8,7 +8,7 @@ export default function ContactRecieved() {
   const fetchInfo = async () => {
     setisloading(false);
     const res = await fetch(
-      "http://localhost:3000/api/v1/contacts/getContact",
+      "https://thetravelbackend.onrender.com/api/v1/contacts/getContact",
       {
         credentials: "include",
       }
@@ -24,19 +24,23 @@ export default function ContactRecieved() {
     <div className={styles.main}>
       <div className={styles.outer_div}>
         <p className={styles.p1}>All messages</p>
-        <div className={styles.allmessages}>
-          {data.map((val, index) => (
-            <div className={styles.message}>
-              <p className={styles.p5}>{val.fullname}</p>
-              <div className={styles.mobs}>
-                <p className={styles.p2}>{val.mobile}</p>
-                <p className={styles.p2}>{val.email}</p>
+        {isloading ? (
+          <div className={styles.allmessages}>
+            {data.map((val, index) => (
+              <div className={styles.message}>
+                <p className={styles.p5}>{val.fullname}</p>
+                <div className={styles.mobs}>
+                  <p className={styles.p2}>{val.mobile}</p>
+                  <p className={styles.p2}>{val.email}</p>
+                </div>
+                <p className={styles.p3}>{val.subject}</p>
+                <p className={styles.p4}>{val.note}</p>
               </div>
-              <p className={styles.p3}>{val.subject}</p>
-              <p className={styles.p4}>{val.note}</p>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <p className={styles.loader}>loading please wait ..</p>
+        )}
       </div>
     </div>
   );

@@ -100,11 +100,12 @@
     background-color: rgb(255, 255, 255);
   }
   .bars {
-    background-color: black;
-    color: white;
-    font-size: 25px;
-    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    padding: 3px;
     border-radius: 4px;
+    border: 2px solid black;
   }
   .title {
     display: flex;
@@ -182,7 +183,8 @@
     border-radius: 4px;
   }
   .btn1 {
-    display: none;
+    border: 2.3px solid black;
+    padding: 5px 20px;
   }
   .btn2 {
     border: 2.3px solid black;
@@ -207,11 +209,12 @@
     background-color: rgb(255, 255, 255);
   }
   .bars {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 21px;
-    padding: 4px;
+    padding: 3px;
     border-radius: 4px;
+    border: 2px solid black;
   }
   .title {
     display: flex;
@@ -285,7 +288,8 @@
     border-radius: 4px;
   }
   .btn1 {
-    display: none;
+    border: 2.3px solid black;
+    padding: 4px 20px;
   }
   .btn2 {
     border: 2.3px solid black;
