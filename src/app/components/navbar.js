@@ -25,7 +25,7 @@ export default function Navbar() {
         <ul className={isopen ? styles.list1 : styles.list}>
           <li>
             <Link
-              href="/"
+              href=""
               className={styles.links}
               onClick={() => {
                 setisopen(!isopen);
@@ -36,7 +36,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/"
+              href=""
               className={styles.links}
               onClick={() => {
                 setisopen(!isopen);
@@ -47,7 +47,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/"
+              href=""
               className={styles.links}
               onClick={() => {
                 setisopen(!isopen);
