@@ -27,7 +27,7 @@ export default function ContactRecieved() {
         {isloading ? (
           <div className={styles.allmessages}>
             {data.map((val, index) => (
-              <div className={styles.message}>
+              <div className={styles.message} key={index}>
                 <p className={styles.p5}>{val.fullname}</p>
                 <div className={styles.mobs}>
                   <p className={styles.p2}>{val.mobile}</p>
